@@ -18,10 +18,41 @@
     </style>
 </head>
 
-<body>
-    <?php
-    $info= array("naam"=>"emile", "achternaam"=>"ferati", "klas"=>"0D", "muziek"=>"hiphop", "woonplaats"=>"muiden", "sport"=>"voetbal",)
 
-   ?> 
+<body>
+
+ 
+  <table border="$info" >
+        <thead>
+            <tr>
+              <th>key</th>
+              <th>value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <?php
+    
+            $info2= array("naam"=>"naam", "achternaam"=>"achternaam", "klas"=>"klas", "muziek"=>"favoriete muziek", "woonplaats"=>"woonplaats");
+            $info= array("naam"=>"emile", "achternaam"=>"Ferati", "klas"=>"0D", "muziek"=>"Pop", "woonplaats"=>"Muiden");
+            
+
+            function maakrij($info2){
+
+            return $info2;
+            }
+        
+             foreach($info2 as $index => $thing){
+
+             echo "<tr><td> $thing </td><td> $info[$index] </td></tr>";
+             }
+
+        ?>
+        
+   
+            </tbody>
+
+    
+   
+
 </body>
 </html>
