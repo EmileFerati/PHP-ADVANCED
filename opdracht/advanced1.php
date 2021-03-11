@@ -17,7 +17,16 @@ foreach($kleuren as $optie){
 
 ?>
 </select>
-<input type="submit"name="submit"value="vesrtuur">
+<a>tekst kleur</a>
+
+<input type= "text" name="border">
+<a>border</a>
+
+<input type= "text" name= "padding">
+<a>padding</a>
+
+
+<input type="submit"name="submit"value="verstuue">
 </form>
 </body>
 </html>

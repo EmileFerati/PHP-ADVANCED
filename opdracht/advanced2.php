@@ -30,7 +30,7 @@
             </tr>
             </thead>
             <tbody>
-            <?php
+             <?php
     
             $info2= array("naam"=>"naam", "achternaam"=>"achternaam", "klas"=>"klas", "muziek"=>"favoriete muziek", "woonplaats"=>"woonplaats");
             $info= array("naam"=>"emile", "achternaam"=>"Ferati", "klas"=>"0D", "muziek"=>"Pop", "woonplaats"=>"Muiden");
@@ -46,7 +46,7 @@
              echo "<tr><td> $thing </td><td> $info[$index] </td></tr>";
              }
 
-        ?>
+             ?>
         
    
             </tbody>
